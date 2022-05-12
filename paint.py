@@ -40,8 +40,26 @@ def circle(start, end):
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
-    pass  # TODO
-#Lia
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    #arriba
+    forward(2*end.x - start.x)
+    #derecha
+    right(90)
+    forward(end.x - start.x)
+    #base
+    right(90)
+    forward(2*end.x - start.x)
+    #izquierda
+    right(90)
+    forward(end.x - start.x)
+
+    end_fill()
+
+    pass  # TODO   
+    #Lia
 
 def triangle(start, end):
     "Draw triangle from start to end."
