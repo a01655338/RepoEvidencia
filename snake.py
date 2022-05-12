@@ -1,3 +1,4 @@
+
 """Snake, classic arcade game.
 
 Exercises
@@ -54,7 +55,7 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        square(body.x, body.y, 9, 'yellow')
 
     square(food.x, food.y, 9, 'green')
     update()
@@ -81,6 +82,10 @@ onkey(lambda: change(10, 0), 'Right')
 onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
+<<<<<<< HEAD
 move()
 moveFood()
+=======
+move() 
+>>>>>>> sofi_rama
 done()
