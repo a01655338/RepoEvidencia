@@ -15,6 +15,7 @@ from freegames import vector
 
 def line(start, end):
     "Draw line from start to end."
+    width(4)
     up()
     goto(start.x, start.y)
     down()
