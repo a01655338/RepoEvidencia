@@ -82,10 +82,6 @@ onkey(lambda: change(10, 0), 'Right')
 onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
-<<<<<<< HEAD
-move()
 moveFood()
-=======
 move() 
->>>>>>> sofi_rama
 done()
