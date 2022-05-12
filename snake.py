@@ -26,6 +26,12 @@ def inside(head):
     "Return True if head inside boundaries."
     return -200 < head.x < 190 and -200 < head.y < 190
 
+
+def insideFood(food):
+        #Regresa True si la comida esta dentro de lo límites
+    return -200 < food.x < 190 and -200 < food.y < 190
+
+
 def move():
     "Move snake forward one segment."
     head = snake[-1].copy()
@@ -54,6 +60,19 @@ def move():
     update()
     ontimer(move, 100)
 
+
+def moveFood():
+     #movimiento aleatorio de la comida
+    food.x =+ randrange(-10,11,10)
+    food.y =+ randrange(-10,11,10)
+    if not insideFood(food):
+        food.x = randrange(-15,15)*10
+        food.y= randrange(-15,15)*10
+    
+
+    ontimer(moveFood, 500)
+
+
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
@@ -63,4 +82,5 @@ onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
+moveFood()
 done()
