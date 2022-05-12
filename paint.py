@@ -36,14 +36,17 @@ def square(start, end):
 def circle(start, end):
     "Draw circle from start to end."
     pass  # TODO
+#Caty
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
     pass  # TODO
+#Lia
 
 def triangle(start, end):
     "Draw triangle from start to end."
     pass  # TODO
+#Sofi
 
 def tap(x, y):
     "Store starting point or draw shape."
