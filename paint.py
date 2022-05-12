@@ -43,20 +43,55 @@ def Drawcircle(start, end):
 
 
     pass  # TODO
+#Caty
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    #arriba
+    forward(2*end.x - start.x)
+    #derecha
+    right(90)
+    forward(end.x - start.x)
+    #base
+    right(90)
+    forward(2*end.x - start.x)
+    #izquierda
+    right(90)
+    forward(end.x - start.x)
+
+    end_fill()
+
+    pass  # TODO   
+    #Lia
 
 def triangle(start, end):
     "Draw triangle from start to end."
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    # base
+    forward(end.x - start.x) 
+    left(120) #angulo del triangulo
+    #lado 1
+    forward(end.x - start.x) 
+    left(120)
+    #lado 2
+    forward(end.x - start.x) 
+    end_fill()
     pass  # TODO
+#Sofi
 
 def tap(x, y):
     "Store starting point or draw shape."
     start = state['start']
 
     if start is None:
+
         state['start'] = vector(x, y)
     else:
         shape = state['shape']
