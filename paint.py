@@ -33,8 +33,15 @@ def square(start, end):
 
     end_fill()
 
-def circle(start, end):
-    "Draw circle from start to end."
+def Drawcircle(start, end):
+    #Dibuja un circulo tomando en cuenta el punto inicial y final
+    up()
+    goto(start.x, start.y)
+    down()
+    Distance=abs(end-start)
+    circle(Distance)
+
+
     pass  # TODO
 #Caty
 
@@ -94,7 +101,7 @@ onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
-onkey(lambda: store('shape', circle), 'c')
+onkey(lambda: store('shape', Drawcircle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
