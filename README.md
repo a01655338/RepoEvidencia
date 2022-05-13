@@ -11,7 +11,7 @@ Función move food que mueve de lugar la comida<br>
 Inserción de contador en la esquina superior izquierda que cuenta el número de taps<br>
 
 
-## Lia - A0<br>
+## Lía Michelle Núñez Brea - A01023743<br>
 <b> PAINT:<br> </b>
 Rectángulo y cambio de grosor de la línea. <br>
 
