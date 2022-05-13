@@ -13,11 +13,13 @@ Inserción de contador en la esquina superior izquierda que cuenta el número de
 
 ## Lia - A0<br>
 <b> PAINT:<br> </b>
+Rectángulo y cambio de grosor de la línea. <br>
 
 <b>SNAKE:<br></b>
+Velocidad de la serpiente. <br>
 
 <b>MEMORY:<br></b>
-
+Cambio de color de la plantilla y letras. <br>
 
 
 
