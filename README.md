@@ -29,5 +29,5 @@ El triángulo
 <b>SNAKE:<br></b>
 Cambio de color a la serpiente
 <b>MEMORY:<br></b>
-Una vez que se acaba el juego sale Game Over
+Una vez que se acaba el juego sale Game Over.
 
