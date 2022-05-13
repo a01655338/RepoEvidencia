@@ -23,10 +23,11 @@ Cambio de color de la plantilla y letras. <br>
 
 
 
-## Sofía - A0<br>
+## Ana Sofía Rojas Rodríguez  - A01379583<br>
 <b> PAINT:<br> </b>
-
+El triángulo
 <b>SNAKE:<br></b>
-
+Cambio de color a la serpiente
 <b>MEMORY:<br></b>
+Una vez que se acaba el juego sale Game Over
 
