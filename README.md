@@ -4,7 +4,7 @@
 ## Catalina García Cárdenas - A01655338 <br>
 <b> PAINT:<br> </b>
 Se agregó un color (morado) <br>
-Función Drawcircle que pinta un círculo de incio a fin<br>
+Función Drawcircle que pinta un círculo de inicio a fin<br>
 <b>SNAKE:<br></b>
 Función move food que mueve de lugar la comida<br>
 <b>MEMORY:<br></b>
