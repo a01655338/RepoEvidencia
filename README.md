@@ -12,7 +12,19 @@ Inserción de contador en la esquina superior izquierda que cuenta el número de
 
 
 ## Lia - A0<br>
+<b> PAINT:<br> </b>
+
+<b>SNAKE:<br></b>
+
+<b>MEMORY:<br></b>
+
 
 
 
 ## Sofía - A0<br>
+<b> PAINT:<br> </b>
+
+<b>SNAKE:<br></b>
+
+<b>MEMORY:<br></b>
+
