@@ -82,7 +82,7 @@ def draw():
     goto(-190, 180)
     write(taps,  align="center", font=("Arial", 20, "bold")) # Cuenta el número de taps que realice el usuario
 
-    if taps==64:
+    if taps==300:
        up()
        goto(0, 0)
        color ("red")
