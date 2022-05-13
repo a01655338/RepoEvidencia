@@ -1,13 +1,10 @@
 """Memory, puzzle game of number pairs.
-
 Exercises:
-
 1. Count and print how many taps occur.
 2. Decrease the number of tiles to a 4x4 grid.
 3. Detect when all tiles are revealed.
 4. Center single-digit tile.
 5. Use letters instead of tiles.
-
 """
 
 from random import *
@@ -24,7 +21,7 @@ def square(x, y):
     up()
     goto(x, y)
     down()
-    color('black', 'white')
+    color('white', 'black')
     begin_fill()
     for count in range(4):
         forward(50)
@@ -69,7 +66,7 @@ def draw():
         x, y = xy(mark)
         up()
         goto(x + 2, y)
-        color('black')
+        color('white')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
     update()
