@@ -72,8 +72,16 @@ def draw():
         color('black')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
+    if taps==64:
+       up()
+       goto(0, 0)
+       color ("red")
+       write("GAME OVER", align="center", font=("Arial",40,"bold"))
+       
+
     update()
     ontimer(draw, 100)
+
 
 shuffle(tiles)
 setup(420, 420, 370, 0)
