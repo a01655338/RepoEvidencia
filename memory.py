@@ -1,13 +1,10 @@
 """Memory, puzzle game of number pairs.
-
 Exercises:
-
 1. Count and print how many taps occur.
 2. Decrease the number of tiles to a 4x4 grid.
 3. Detect when all tiles are revealed.
 4. Center single-digit tile.
 5. Use letters instead of tiles.
-
 """
 
 from random import *
@@ -19,12 +16,15 @@ tiles = list(range(32)) * 2
 state = {'mark': None}
 hide = [True] * 64
 
+taps=0 #Contador para el número de Taps
+CounterParejas=0 #Contador para el numero de Parejas
+
 def square(x, y):
     "Draw white square with black outline at (x, y)."
     up()
     goto(x, y)
     down()
-    color('black', 'white')
+    color('white', 'black')
     begin_fill()
     for count in range(4):
         forward(50)
@@ -43,6 +43,8 @@ def tap(x, y):
     "Update mark and hidden tiles based on tap."
     spot = index(x, y)
     mark = state['mark']
+    global taps
+    taps +=1
 
     if mark is None or mark == spot or tiles[mark] != tiles[spot]:
         state['mark'] = spot
@@ -50,6 +52,8 @@ def tap(x, y):
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+        global CounterParejas
+        CounterParejas+=1
 
 def draw():
     "Draw image and tiles."
@@ -69,8 +73,14 @@ def draw():
         x, y = xy(mark)
         up()
         goto(x + 2, y)
-        color('black')
+        color('white')
         write(tiles[mark], font=('Arial', 30, 'normal'))
+        
+
+    color('red')
+    up()
+    goto(-190, 180)
+    write(taps,  align="center", font=("Arial", 20, "bold")) # Cuenta el número de taps que realice el usuario
 
     if taps==64:
        up()
