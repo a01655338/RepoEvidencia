@@ -1,7 +1,7 @@
 # RepoEvidencia<br>
 
 
-## Catalina García Cárdenas - A01655338<br>
+## Catalina García Cárdenas - A01655338 <br>
 ### CAMBIOS<br>
 <b> PAINT:<br> </b>
 Se agregó un color (morado) <br>
@@ -12,3 +12,8 @@ Función move food que mueve de lugar la comida<br>
 Inserción de contador en la esquina superior izquierda que cuenta el número de taps<br>
 
 
+## Lia - A0<br>
+
+
+
+## Sofía - A0<br>
