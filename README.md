@@ -24,7 +24,7 @@ Cambio de color de la plantilla y letras. <br>
 
 
 ## Ana Sofía Rojas Rodríguez  - A01379583<br>
-<b> PAINT:<br> </b>
+<b>PAINT:<br> </b>
 El triángulo
 <b>SNAKE:<br></b>
 Cambio de color a la serpiente
