@@ -1,8 +1,7 @@
-# RepoEvidencia<br>
+# LISTA DE CAMBIOS<br>
 
 
 ## Catalina García Cárdenas - A01655338 <br>
-### CAMBIOS<br>
 <b> PAINT:<br> </b>
 Se agregó un color (morado) <br>
 Función Drawcircle que pinta un círculo de incio a fin<br>
